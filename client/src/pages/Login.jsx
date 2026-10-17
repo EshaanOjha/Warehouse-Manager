@@ -49,7 +49,7 @@ export default function Login() {
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-headline-sm text-white font-bold tracking-tight uppercase text-[14px]">
-                  Wholesale
+                  Warehouse
                 </span>
                 <span className="text-[9px] px-1 py-0.2 rounded bg-amber-400/20 text-amber-300 border border-amber-400/40 tracking-wider font-semibold">
                   B2B / ADMIN
