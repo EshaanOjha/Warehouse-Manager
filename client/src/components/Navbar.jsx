@@ -251,13 +251,13 @@ export default function Navbar() {
           </nav>
         </div>
 
-        {/* BOTTOM USER TERMINAL DOCK */}
+        {/* BOTTOM USER DOCK */}
         <div className="p-2 border-t border-[#202e42] bg-[#09101a]">
           <div className="p-2.5 rounded-sm bg-[#121c29] border border-[#202e42] flex flex-col gap-1.5">
             <div className="flex items-center justify-between">
-              <span className="font-mono text-[10px] text-slate-400 uppercase tracking-widest flex items-center gap-1">
+              <span className="font-mono text-[10px] text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                TERMINAL DOCK
+                ONLINE
               </span>
               <button 
                 onClick={handleLogout}
@@ -276,10 +276,8 @@ export default function Navbar() {
             </div>
             {!isAdmin && (
               <div className="pt-1.5 mt-0.5 border-t border-[#202e42] flex items-center justify-between font-mono text-[10px]">
-                <span className="text-slate-400">TERMS: <strong className="text-slate-200">NET 30</strong></span>
-                <span className="text-slate-400">
-                  CREDIT: <strong className="text-emerald-400 tabular-nums">${Number(user.creditLimit || 50000).toLocaleString()}</strong>
-                </span>
+                <span className="text-slate-400">CREDIT:</span>
+                <strong className="text-emerald-400 tabular-nums">${Number(user.creditLimit || 50000).toLocaleString()}</strong>
               </div>
             )}
           </div>
