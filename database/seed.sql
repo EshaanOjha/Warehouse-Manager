@@ -3,7 +3,7 @@
 -- Course: CSC2103 - Relational Database Management Systems
 -- =====================================================================
 
-USE wholesale_db;
+Uwholesale_dbSE ;
 
 -- 1. CATEGORIES (8 categories)
 INSERT INTO category (category_id, name, description) VALUES

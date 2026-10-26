@@ -8,10 +8,6 @@ DROP DATABASE IF EXISTS wholesale_db;
 CREATE DATABASE wholesale_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE wholesale_db;
 
--- =====================================================================
--- 1. DDL: CORE ENTITIES & RELATIONAL SCHEMA
--- =====================================================================
-
 -- Table 1: category
 CREATE TABLE category (
     category_id INT AUTO_INCREMENT PRIMARY KEY,
